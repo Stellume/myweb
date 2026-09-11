@@ -18,6 +18,5 @@ jobs:
             cd ~/myweb
             git pull origin main
             docker build -t myweb:latest .
-            docker stop web || true
-            docker rm web || true
-            docker run -d --name web -p 8080:80 myweb:latest
+            docker rm -f web || true
+            docker run -d --name web --restart unless-stopped -p 8080:80 myweb:latest
