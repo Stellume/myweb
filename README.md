@@ -74,6 +74,7 @@ flowchart LR
 - **인위적 부하를 발생시켜 지표가 정상 반영되는지 검증**
 
 **Grafana 대시보드 — CPU/메모리/디스크/네트워크 실시간 모니터링**
+
 <img width="1118" height="425" alt="grafana 스크린샷" src="https://github.com/user-attachments/assets/81f42138-ff48-432a-9dab-27085e295d45" />
 ---
 
